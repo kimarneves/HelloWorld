@@ -14,6 +14,8 @@
 		2A7B091D1C058796005C84EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7B091B1C058796005C84EF /* LaunchScreen.storyboard */; };
 		2A7B09281C058796005C84EF /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7B09271C058796005C84EF /* HelloWorldTests.swift */; };
 		2A7B09331C058796005C84EF /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7B09321C058796005C84EF /* HelloWorldUITests.swift */; };
+		2A7B09411C058E01005C84EF /* Screen Shot 2015-11-24 at 10.33.02 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7B09401C058E01005C84EF /* Screen Shot 2015-11-24 at 10.33.02 PM.png */; settings = {ASSET_TAGS = (); }; };
+		2A7B097D1C058F6B005C84EF /* Screen Shot 2015-11-24 at 10.40.19 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7B097C1C058F6B005C84EF /* Screen Shot 2015-11-24 at 10.40.19 PM.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2A7B092E1C058796005C84EF /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7B09321C058796005C84EF /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		2A7B09341C058796005C84EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7B09401C058E01005C84EF /* Screen Shot 2015-11-24 at 10.33.02 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-11-24 at 10.33.02 PM.png"; sourceTree = "<group>"; };
+		2A7B097C1C058F6B005C84EF /* Screen Shot 2015-11-24 at 10.40.19 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-11-24 at 10.40.19 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				2A7B09121C058796005C84EF /* AppDelegate.swift */,
 				2A7B09141C058796005C84EF /* ViewController.swift */,
 				2A7B09161C058796005C84EF /* Main.storyboard */,
+				2A7B09401C058E01005C84EF /* Screen Shot 2015-11-24 at 10.33.02 PM.png */,
+				2A7B097C1C058F6B005C84EF /* Screen Shot 2015-11-24 at 10.40.19 PM.png */,
 				2A7B09191C058796005C84EF /* Assets.xcassets */,
 				2A7B091B1C058796005C84EF /* LaunchScreen.storyboard */,
 				2A7B091E1C058796005C84EF /* Info.plist */,
@@ -230,7 +236,9 @@
 			files = (
 				2A7B091D1C058796005C84EF /* LaunchScreen.storyboard in Resources */,
 				2A7B091A1C058796005C84EF /* Assets.xcassets in Resources */,
+				2A7B097D1C058F6B005C84EF /* Screen Shot 2015-11-24 at 10.40.19 PM.png in Resources */,
 				2A7B09181C058796005C84EF /* Main.storyboard in Resources */,
+				2A7B09411C058E01005C84EF /* Screen Shot 2015-11-24 at 10.33.02 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +410,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.eng.kimar.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -413,6 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.eng.kimar.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
